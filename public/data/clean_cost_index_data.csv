@@ -57,57 +57,6 @@ Alaska,2020,127.3
 Alaska,2021,127.1
 Alaska,2022,126.6
 Alaska,2023,125.2
-Arkansas,1960,9.729078
-Arkansas,1961,10.25731
-Arkansas,1962,10.58921
-Arkansas,1963,11.09684
-Arkansas,1964,11.61635
-Arkansas,1965,12.16355
-Arkansas,1966,12.99362
-Arkansas,1967,13.60872
-Arkansas,1968,14.8375
-Arkansas,1969,16.20367
-Arkansas,1970,17.54979
-Arkansas,1971,18.75279
-Arkansas,1972,19.9014
-Arkansas,1973,21.87013
-Arkansas,1974,24.3915
-Arkansas,1975,26.56989
-Arkansas,1976,28.43949
-Arkansas,1977,30.58341
-Arkansas,1978,33.29095
-Arkansas,1979,36.83135
-Arkansas,1980,41.12016
-Arkansas,1981,45.15311
-Arkansas,1982,47.62546
-Arkansas,1983,49.23444
-Arkansas,1984,51.11975
-Arkansas,1985,52.85147
-Arkansas,1986,53.88134
-Arkansas,1987,55.69196
-Arkansas,1988,57.87473
-Arkansas,1989,60.47808
-Arkansas,1990,63.29412
-Arkansas,1991,65.42078
-Arkansas,1992,67.43538
-Arkansas,1993,69.20523
-Arkansas,1994,71.02
-Arkansas,1995,73.01923
-Arkansas,1996,75.26538
-Arkansas,1997,77.10783
-Arkansas,1998,78.37458
-Arkansas,1999,80.09604
-Arkansas,2000,83.04192
-Arkansas,2001,85.29109
-Arkansas,2002,86.78195
-Arkansas,2003,88.70616
-Arkansas,2016,88.5
-Arkansas,2017,87.8
-Arkansas,2019,87.1
-Arkansas,2020,88.1
-Arkansas,2021,90.9
-Arkansas,2022,90.6
-Arkansas,2023,89.0
 Arizona,1960,12.5092
 Arizona,1961,12.62301
 Arizona,1962,13.0518
@@ -159,6 +108,57 @@ Arizona,2020,101.3
 Arizona,2021,103.2
 Arizona,2022,105.8
 Arizona,2023,108.4
+Arkansas,1960,9.729078
+Arkansas,1961,10.25731
+Arkansas,1962,10.58921
+Arkansas,1963,11.09684
+Arkansas,1964,11.61635
+Arkansas,1965,12.16355
+Arkansas,1966,12.99362
+Arkansas,1967,13.60872
+Arkansas,1968,14.8375
+Arkansas,1969,16.20367
+Arkansas,1970,17.54979
+Arkansas,1971,18.75279
+Arkansas,1972,19.9014
+Arkansas,1973,21.87013
+Arkansas,1974,24.3915
+Arkansas,1975,26.56989
+Arkansas,1976,28.43949
+Arkansas,1977,30.58341
+Arkansas,1978,33.29095
+Arkansas,1979,36.83135
+Arkansas,1980,41.12016
+Arkansas,1981,45.15311
+Arkansas,1982,47.62546
+Arkansas,1983,49.23444
+Arkansas,1984,51.11975
+Arkansas,1985,52.85147
+Arkansas,1986,53.88134
+Arkansas,1987,55.69196
+Arkansas,1988,57.87473
+Arkansas,1989,60.47808
+Arkansas,1990,63.29412
+Arkansas,1991,65.42078
+Arkansas,1992,67.43538
+Arkansas,1993,69.20523
+Arkansas,1994,71.02
+Arkansas,1995,73.01923
+Arkansas,1996,75.26538
+Arkansas,1997,77.10783
+Arkansas,1998,78.37458
+Arkansas,1999,80.09604
+Arkansas,2000,83.04192
+Arkansas,2001,85.29109
+Arkansas,2002,86.78195
+Arkansas,2003,88.70616
+Arkansas,2016,88.5
+Arkansas,2017,87.8
+Arkansas,2019,87.1
+Arkansas,2020,88.1
+Arkansas,2021,90.9
+Arkansas,2022,90.6
+Arkansas,2023,89.0
 California,1960,11.71592
 California,1961,11.96667
 California,1962,12.38507
@@ -363,6 +363,173 @@ Delaware,2020,107.7
 Delaware,2021,107.9
 Delaware,2022,105.6
 Delaware,2023,101.1
+Florida,1960,11.21549
+Florida,1961,11.20348
+Florida,1962,11.46191
+Florida,1963,11.68234
+Florida,1964,12.20022
+Florida,1965,12.77592
+Florida,1966,13.50708
+Florida,1967,14.35349
+Florida,1968,15.53432
+Florida,1969,17.07833
+Florida,1970,18.48793
+Florida,1971,19.64701
+Florida,1972,20.80354
+Florida,1973,22.54325
+Florida,1974,25.00096
+Florida,1975,27.18935
+Florida,1976,28.9932
+Florida,1977,31.26593
+Florida,1978,34.00079
+Florida,1979,37.81566
+Florida,1980,42.53254
+Florida,1981,46.72921
+Florida,1982,49.40518
+Florida,1983,51.30411
+Florida,1984,53.09555
+Florida,1985,54.85762
+Florida,1986,56.14312
+Florida,1987,58.26602
+Florida,1988,60.61675
+Florida,1989,63.4605
+Florida,1990,66.39878
+Florida,1991,68.32281
+Florida,1992,70.14466
+Florida,1993,71.96101
+Florida,1994,73.71572
+Florida,1995,75.76385
+Florida,1996,78.01534
+Florida,1997,79.88615
+Florida,1998,81.24083
+Florida,1999,82.99387
+Florida,2000,86.10994
+Florida,2001,88.33464
+Florida,2002,90.01809
+Florida,2003,92.11458
+Florida,2016,99.0
+Florida,2017,99.3
+Florida,2019,98.2
+Florida,2020,99.8
+Florida,2021,100.3
+Florida,2022,102.8
+Florida,2023,100.7
+District of Columbia,2016,149.2
+District of Columbia,2017,155.7
+District of Columbia,2019,159.0
+District of Columbia,2020,159.0
+District of Columbia,2021,158.1
+District of Columbia,2022,152.2
+District of Columbia,2023,146.8
+Georgia,1960,10.13209
+Georgia,1961,10.31424
+Georgia,1962,10.76931
+Georgia,1963,11.25961
+Georgia,1964,11.77124
+Georgia,1965,12.44157
+Georgia,1966,13.2935
+Georgia,1967,14.092
+Georgia,1968,15.20639
+Georgia,1969,16.6592
+Georgia,1970,17.97554
+Georgia,1971,19.14978
+Georgia,1972,20.30857
+Georgia,1973,22.03231
+Georgia,1974,24.49565
+Georgia,1975,26.66929
+Georgia,1976,28.5352
+Georgia,1977,30.66933
+Georgia,1978,33.29429
+Georgia,1979,36.93731
+Georgia,1980,41.37833
+Georgia,1981,45.62514
+Georgia,1982,48.44393
+Georgia,1983,50.40038
+Georgia,1984,52.37673
+Georgia,1985,54.2038
+Georgia,1986,55.6061
+Georgia,1987,57.78404
+Georgia,1988,60.17796
+Georgia,1989,62.95286
+Georgia,1990,66.02573
+Georgia,1991,68.03161
+Georgia,1992,70.0646
+Georgia,1993,71.98477
+Georgia,1994,73.96236
+Georgia,1995,76.1199
+Georgia,1996,78.62307
+Georgia,1997,80.66872
+Georgia,1998,82.13541
+Georgia,1999,84.03003
+Georgia,2000,87.4304
+Georgia,2001,89.64706
+Georgia,2002,91.32971
+Georgia,2003,93.46124
+Georgia,2016,91.4
+Georgia,2017,90.8
+Georgia,2019,89.2
+Georgia,2020,89.7
+Georgia,2021,88.8
+Georgia,2022,88.6
+Georgia,2023,90.8
+Hawaii,2016,167.4
+Hawaii,2017,188.3
+Hawaii,2019,191.8
+Hawaii,2020,198.6
+Hawaii,2021,193.3
+Hawaii,2022,184.0
+Hawaii,2023,180.3
+Idaho,1960,12.50529
+Idaho,1961,12.70291
+Idaho,1962,13.19188
+Idaho,1963,13.55865
+Idaho,1964,14.04341
+Idaho,1965,14.94522
+Idaho,1966,15.47717
+Idaho,1967,16.12727
+Idaho,1968,16.88011
+Idaho,1969,18.71597
+Idaho,1970,19.97746
+Idaho,1971,21.02129
+Idaho,1972,22.14333
+Idaho,1973,23.94054
+Idaho,1974,26.6076
+Idaho,1975,28.66401
+Idaho,1976,30.26652
+Idaho,1977,32.82772
+Idaho,1978,35.76488
+Idaho,1979,39.48264
+Idaho,1980,44.18433
+Idaho,1981,47.89754
+Idaho,1982,50.09662
+Idaho,1983,51.63176
+Idaho,1984,53.24513
+Idaho,1985,54.84441
+Idaho,1986,55.6721
+Idaho,1987,57.45135
+Idaho,1988,59.72433
+Idaho,1989,62.49006
+Idaho,1990,65.64146
+Idaho,1991,68.01522
+Idaho,1992,70.06286
+Idaho,1993,72.06734
+Idaho,1994,73.88462
+Idaho,1995,75.93041
+Idaho,1996,77.78415
+Idaho,1997,79.17551
+Idaho,1998,81.41993
+Idaho,1999,84.14413
+Idaho,2000,87.75004
+Idaho,2001,90.62995
+Idaho,2002,92.96356
+Idaho,2003,95.65531
+Idaho,2016,89.6
+Idaho,2017,92.2
+Idaho,2019,93.3
+Idaho,2020,93.9
+Idaho,2021,102.1
+Idaho,2022,99.6
+Idaho,2023,98.6
 Illinois,1960,13.54302
 Illinois,1961,13.72894
 Illinois,1962,14.04465
@@ -465,57 +632,6 @@ Indiana,2020,89.8
 Indiana,2021,90.6
 Indiana,2022,89.9
 Indiana,2023,91.0
-Kansas,1960,13.36049
-Kansas,1961,13.54882
-Kansas,1962,13.84347
-Kansas,1963,14.34726
-Kansas,1964,14.7707
-Kansas,1965,15.47041
-Kansas,1966,16.29854
-Kansas,1967,17.11379
-Kansas,1968,18.26778
-Kansas,1969,19.48011
-Kansas,1970,20.85117
-Kansas,1971,22.22025
-Kansas,1972,23.55062
-Kansas,1973,25.50872
-Kansas,1974,28.22537
-Kansas,1975,30.76978
-Kansas,1976,32.73643
-Kansas,1977,35.11178
-Kansas,1978,37.9735
-Kansas,1979,42.31179
-Kansas,1980,47.13483
-Kansas,1981,51.59473
-Kansas,1982,54.36031
-Kansas,1983,55.87947
-Kansas,1984,57.79211
-Kansas,1985,59.5802
-Kansas,1986,60.66232
-Kansas,1987,62.68071
-Kansas,1988,65.04346
-Kansas,1989,67.90427
-Kansas,1990,71.08663
-Kansas,1991,73.66428
-Kansas,1992,75.82563
-Kansas,1993,77.83617
-Kansas,1994,79.8588
-Kansas,1995,82.05156
-Kansas,1996,84.64788
-Kansas,1997,86.81313
-Kansas,1998,88.30582
-Kansas,1999,90.2336
-Kansas,2000,93.4244
-Kansas,2001,96.00179
-Kansas,2002,97.65908
-Kansas,2003,99.85979
-Kansas,2016,90.4
-Kansas,2017,90.2
-Kansas,2019,88.5
-Kansas,2020,86.8
-Kansas,2021,86.5
-Kansas,2022,87.5
-Kansas,2023,87.1
 Iowa,1960,13.05698
 Iowa,1961,13.33162
 Iowa,1962,13.6593
@@ -567,6 +683,108 @@ Iowa,2020,91.3
 Iowa,2021,89.9
 Iowa,2022,89.2
 Iowa,2023,90.3
+Kansas,1960,13.36049
+Kansas,1961,13.54882
+Kansas,1962,13.84347
+Kansas,1963,14.34726
+Kansas,1964,14.7707
+Kansas,1965,15.47041
+Kansas,1966,16.29854
+Kansas,1967,17.11379
+Kansas,1968,18.26778
+Kansas,1969,19.48011
+Kansas,1970,20.85117
+Kansas,1971,22.22025
+Kansas,1972,23.55062
+Kansas,1973,25.50872
+Kansas,1974,28.22537
+Kansas,1975,30.76978
+Kansas,1976,32.73643
+Kansas,1977,35.11178
+Kansas,1978,37.9735
+Kansas,1979,42.31179
+Kansas,1980,47.13483
+Kansas,1981,51.59473
+Kansas,1982,54.36031
+Kansas,1983,55.87947
+Kansas,1984,57.79211
+Kansas,1985,59.5802
+Kansas,1986,60.66232
+Kansas,1987,62.68071
+Kansas,1988,65.04346
+Kansas,1989,67.90427
+Kansas,1990,71.08663
+Kansas,1991,73.66428
+Kansas,1992,75.82563
+Kansas,1993,77.83617
+Kansas,1994,79.8588
+Kansas,1995,82.05156
+Kansas,1996,84.64788
+Kansas,1997,86.81313
+Kansas,1998,88.30582
+Kansas,1999,90.2336
+Kansas,2000,93.4244
+Kansas,2001,96.00179
+Kansas,2002,97.65908
+Kansas,2003,99.85979
+Kansas,2016,90.4
+Kansas,2017,90.2
+Kansas,2019,88.5
+Kansas,2020,86.8
+Kansas,2021,86.5
+Kansas,2022,87.5
+Kansas,2023,87.1
+Kentucky,1960,10.10452
+Kentucky,1961,10.51692
+Kentucky,1962,10.86971
+Kentucky,1963,11.36817
+Kentucky,1964,11.64955
+Kentucky,1965,12.34793
+Kentucky,1966,13.20627
+Kentucky,1967,14.00768
+Kentucky,1968,15.13679
+Kentucky,1969,16.51557
+Kentucky,1970,17.8063
+Kentucky,1971,18.9024
+Kentucky,1972,20.03289
+Kentucky,1973,21.77016
+Kentucky,1974,24.37712
+Kentucky,1975,26.60943
+Kentucky,1976,28.47281
+Kentucky,1977,30.71678
+Kentucky,1978,33.29195
+Kentucky,1979,37.05192
+Kentucky,1980,41.38075
+Kentucky,1981,45.31577
+Kentucky,1982,47.86356
+Kentucky,1983,49.32084
+Kentucky,1984,51.25969
+Kentucky,1985,52.89333
+Kentucky,1986,53.92812
+Kentucky,1987,55.91291
+Kentucky,1988,58.06536
+Kentucky,1989,60.72899
+Kentucky,1990,63.5948
+Kentucky,1991,65.72588
+Kentucky,1992,67.77964
+Kentucky,1993,69.60956
+Kentucky,1994,71.51481
+Kentucky,1995,73.59393
+Kentucky,1996,76.0233
+Kentucky,1997,78.1012
+Kentucky,1998,79.52221
+Kentucky,1999,81.34614
+Kentucky,2000,84.72667
+Kentucky,2001,86.87343
+Kentucky,2002,88.46481
+Kentucky,2003,90.47941
+Kentucky,2016,90.8
+Kentucky,2017,93.7
+Kentucky,2019,93.1
+Kentucky,2020,93.6
+Kentucky,2021,93.1
+Kentucky,2022,94.9
+Kentucky,2023,92.0
 Louisiana,1960,10.48923
 Louisiana,1961,10.65577
 Louisiana,1962,10.86004
@@ -618,6 +836,210 @@ Louisiana,2020,93.2
 Louisiana,2021,93.0
 Louisiana,2022,93.6
 Louisiana,2023,91.0
+Maine,1960,14.30684
+Maine,1961,14.37241
+Maine,1962,14.7558
+Maine,1963,14.88015
+Maine,1964,15.51591
+Maine,1965,16.25717
+Maine,1966,17.14595
+Maine,1967,17.97206
+Maine,1968,19.09111
+Maine,1969,20.61716
+Maine,1970,22.13739
+Maine,1971,23.36576
+Maine,1972,24.65
+Maine,1973,26.75537
+Maine,1974,29.69667
+Maine,1975,32.22053
+Maine,1976,34.43986
+Maine,1977,36.75158
+Maine,1978,39.63646
+Maine,1979,43.89687
+Maine,1980,49.27742
+Maine,1981,53.94725
+Maine,1982,57.02017
+Maine,1983,58.89561
+Maine,1984,61.44532
+Maine,1985,63.95045
+Maine,1986,66.03658
+Maine,1987,69.13463
+Maine,1988,72.39694
+Maine,1989,76.1183
+Maine,1990,79.27979
+Maine,1991,80.93624
+Maine,1992,82.87067
+Maine,1993,84.69546
+Maine,1994,86.63694
+Maine,1995,88.81065
+Maine,1996,90.75862
+Maine,1997,92.25249
+Maine,1998,94.16784
+Maine,1999,96.58737
+Maine,2000,100.5396
+Maine,2001,103.3166
+Maine,2002,105.9715
+Maine,2003,109.0675
+Maine,2016,112.0
+Maine,2017,113.6
+Maine,2019,116.6
+Maine,2020,116.1
+Maine,2021,115.0
+Maine,2022,115.3
+Maine,2023,109.9
+Maryland,1960,12.85662
+Maryland,1961,13.22726
+Maryland,1962,13.62004
+Maryland,1963,13.75006
+Maryland,1964,14.21651
+Maryland,1965,14.81213
+Maryland,1966,15.49687
+Maryland,1967,16.28621
+Maryland,1968,17.47568
+Maryland,1969,18.84263
+Maryland,1970,20.25499
+Maryland,1971,21.50748
+Maryland,1972,22.69733
+Maryland,1973,24.52051
+Maryland,1974,27.26413
+Maryland,1975,29.69363
+Maryland,1976,31.68004
+Maryland,1977,34.05651
+Maryland,1978,36.85777
+Maryland,1979,40.8295
+Maryland,1980,45.65816
+Maryland,1981,50.23897
+Maryland,1982,53.44817
+Maryland,1983,55.68295
+Maryland,1984,57.64279
+Maryland,1985,59.57951
+Maryland,1986,61.29811
+Maryland,1987,63.86448
+Maryland,1988,66.54395
+Maryland,1989,69.60998
+Maryland,1990,72.9329
+Maryland,1991,74.91678
+Maryland,1992,76.77372
+Maryland,1993,78.57026
+Maryland,1994,80.3758
+Maryland,1995,82.36065
+Maryland,1996,84.61272
+Maryland,1997,86.56411
+Maryland,1998,87.92127
+Maryland,1999,89.76191
+Maryland,2000,92.98988
+Maryland,2001,95.41545
+Maryland,2002,97.44132
+Maryland,2003,99.85896
+Maryland,2016,125.0
+Maryland,2017,128.7
+Maryland,2019,127.6
+Maryland,2020,127.2
+Maryland,2021,124.0
+Maryland,2022,124.0
+Maryland,2023,116.5
+Massachusetts,1960,14.56137
+Massachusetts,1961,14.91279
+Massachusetts,1962,15.23024
+Massachusetts,1963,15.32899
+Massachusetts,1964,15.83881
+Massachusetts,1965,16.42971
+Massachusetts,1966,17.328
+Massachusetts,1967,18.29617
+Massachusetts,1968,19.52496
+Massachusetts,1969,21.03527
+Massachusetts,1970,22.49011
+Massachusetts,1971,23.79435
+Massachusetts,1972,25.1319
+Massachusetts,1973,27.13069
+Massachusetts,1974,30.02686
+Massachusetts,1975,32.66525
+Massachusetts,1976,34.67485
+Massachusetts,1977,37.11323
+Massachusetts,1978,40.096
+Massachusetts,1979,44.43869
+Massachusetts,1980,49.8842
+Massachusetts,1981,55.10047
+Massachusetts,1982,58.558
+Massachusetts,1983,60.81642
+Massachusetts,1984,64.11124
+Massachusetts,1985,67.27878
+Massachusetts,1986,70.65612
+Massachusetts,1987,75.06136
+Massachusetts,1988,79.53216
+Massachusetts,1989,84.29264
+Massachusetts,1990,87.60623
+Massachusetts,1991,88.66163
+Massachusetts,1992,90.60548
+Massachusetts,1993,92.43377
+Massachusetts,1994,94.51005
+Massachusetts,1995,96.81893
+Massachusetts,1996,98.51828
+Massachusetts,1997,99.79893
+Massachusetts,1998,102.3137
+Massachusetts,1999,105.3996
+Massachusetts,2000,110.5939
+Massachusetts,2001,113.729
+Massachusetts,2002,117.4933
+Massachusetts,2003,121.8045
+Massachusetts,2016,134.7
+Massachusetts,2017,132.9
+Massachusetts,2019,130.1
+Massachusetts,2020,129.9
+Massachusetts,2021,135.0
+Massachusetts,2022,149.7
+Massachusetts,2023,146.5
+Michigan,1960,12.82652
+Michigan,1961,12.80382
+Michigan,1962,13.18772
+Michigan,1963,13.61575
+Michigan,1964,14.25251
+Michigan,1965,15.13649
+Michigan,1966,15.96973
+Michigan,1967,16.6447
+Michigan,1968,17.85608
+Michigan,1969,19.33674
+Michigan,1970,20.38659
+Michigan,1971,21.6348
+Michigan,1972,22.88786
+Michigan,1973,24.70115
+Michigan,1974,27.29505
+Michigan,1975,29.69652
+Michigan,1976,31.84137
+Michigan,1977,34.33537
+Michigan,1978,37.15568
+Michigan,1979,41.20005
+Michigan,1980,45.88559
+Michigan,1981,50.25448
+Michigan,1982,52.91038
+Michigan,1983,54.66183
+Michigan,1984,56.62758
+Michigan,1985,58.55901
+Michigan,1986,59.83401
+Michigan,1987,61.89557
+Michigan,1988,64.49467
+Michigan,1989,67.61569
+Michigan,1990,70.77661
+Michigan,1991,73.50372
+Michigan,1992,75.83865
+Michigan,1993,78.10502
+Michigan,1994,80.57692
+Michigan,1995,83.0719
+Michigan,1996,85.88512
+Michigan,1997,88.36307
+Michigan,1998,90.09879
+Michigan,1999,92.34171
+Michigan,2000,95.9069
+Michigan,2001,98.51667
+Michigan,2002,100.3823
+Michigan,2003,102.7344
+Michigan,2016,88.2
+Michigan,2017,89.7
+Michigan,2019,89.8
+Michigan,2020,90.6
+Michigan,2021,91.3
+Michigan,2022,92.2
+Michigan,2023,90.6
 Minnesota,1960,13.27266
 Minnesota,1961,13.52937
 Minnesota,1962,13.78229
@@ -669,6 +1091,57 @@ Minnesota,2020,100.7
 Minnesota,2021,100.0
 Minnesota,2022,97.5
 Minnesota,2023,94.1
+Missouri,1960,13.11752
+Missouri,1961,13.31724
+Missouri,1962,13.69518
+Missouri,1963,13.60095
+Missouri,1964,14.06932
+Missouri,1965,14.85029
+Missouri,1966,15.60686
+Missouri,1967,16.4316
+Missouri,1968,17.60272
+Missouri,1969,18.90676
+Missouri,1970,20.30654
+Missouri,1971,21.54483
+Missouri,1972,22.69067
+Missouri,1973,24.46654
+Missouri,1974,27.08142
+Missouri,1975,29.62309
+Missouri,1976,31.63
+Missouri,1977,34.06686
+Missouri,1978,36.91255
+Missouri,1979,41.0695
+Missouri,1980,45.80663
+Missouri,1981,50.39855
+Missouri,1982,53.20115
+Missouri,1983,54.93408
+Missouri,1984,56.88257
+Missouri,1985,58.72882
+Missouri,1986,59.96688
+Missouri,1987,62.12944
+Missouri,1988,64.69986
+Missouri,1989,67.80327
+Missouri,1990,70.97939
+Missouri,1991,73.60403
+Missouri,1992,75.74461
+Missouri,1993,77.73821
+Missouri,1994,79.80995
+Missouri,1995,82.02332
+Missouri,1996,84.52304
+Missouri,1997,86.66441
+Missouri,1998,88.09998
+Missouri,1999,90.0308
+Missouri,2000,93.21149
+Missouri,2001,95.8074
+Missouri,2002,97.54144
+Missouri,2003,99.73473
+Missouri,2016,90.8
+Missouri,2017,89.9
+Missouri,2019,88.5
+Missouri,2020,89.1
+Missouri,2021,89.8
+Missouri,2022,89.1
+Missouri,2023,88.5
 Mississippi,1960,8.894691
 Mississippi,1961,9.282069
 Mississippi,1962,9.556503
@@ -873,57 +1346,6 @@ Nevada,2020,108.8
 Nevada,2021,106.3
 Nevada,2022,103.2
 Nevada,2023,101.0
-Missouri,1960,13.11752
-Missouri,1961,13.31724
-Missouri,1962,13.69518
-Missouri,1963,13.60095
-Missouri,1964,14.06932
-Missouri,1965,14.85029
-Missouri,1966,15.60686
-Missouri,1967,16.4316
-Missouri,1968,17.60272
-Missouri,1969,18.90676
-Missouri,1970,20.30654
-Missouri,1971,21.54483
-Missouri,1972,22.69067
-Missouri,1973,24.46654
-Missouri,1974,27.08142
-Missouri,1975,29.62309
-Missouri,1976,31.63
-Missouri,1977,34.06686
-Missouri,1978,36.91255
-Missouri,1979,41.0695
-Missouri,1980,45.80663
-Missouri,1981,50.39855
-Missouri,1982,53.20115
-Missouri,1983,54.93408
-Missouri,1984,56.88257
-Missouri,1985,58.72882
-Missouri,1986,59.96688
-Missouri,1987,62.12944
-Missouri,1988,64.69986
-Missouri,1989,67.80327
-Missouri,1990,70.97939
-Missouri,1991,73.60403
-Missouri,1992,75.74461
-Missouri,1993,77.73821
-Missouri,1994,79.80995
-Missouri,1995,82.02332
-Missouri,1996,84.52304
-Missouri,1997,86.66441
-Missouri,1998,88.09998
-Missouri,1999,90.0308
-Missouri,2000,93.21149
-Missouri,2001,95.8074
-Missouri,2002,97.54144
-Missouri,2003,99.73473
-Missouri,2016,90.8
-Missouri,2017,89.9
-Missouri,2019,88.5
-Missouri,2020,89.1
-Missouri,2021,89.8
-Missouri,2022,89.1
-Missouri,2023,88.5
 New Hampshire,1960,15.63197
 New Hampshire,1961,15.84459
 New Hampshire,1962,16.25275
@@ -1026,6 +1448,57 @@ New Jersey,2020,116.8
 New Jersey,2021,115.2
 New Jersey,2022,112.4
 New Jersey,2023,113.9
+New Mexico,1960,12.23388
+New Mexico,1961,12.24742
+New Mexico,1962,12.62228
+New Mexico,1963,13.08498
+New Mexico,1964,13.3975
+New Mexico,1965,14.01917
+New Mexico,1966,14.78436
+New Mexico,1967,15.40829
+New Mexico,1968,16.42332
+New Mexico,1969,17.5949
+New Mexico,1970,18.90096
+New Mexico,1971,20.01465
+New Mexico,1972,21.11689
+New Mexico,1973,22.73894
+New Mexico,1974,25.24076
+New Mexico,1975,27.65289
+New Mexico,1976,29.24698
+New Mexico,1977,32.01629
+New Mexico,1978,34.99321
+New Mexico,1979,38.89658
+New Mexico,1980,43.58219
+New Mexico,1981,47.62012
+New Mexico,1982,50.10278
+New Mexico,1983,51.59116
+New Mexico,1984,53.23407
+New Mexico,1985,54.89584
+New Mexico,1986,55.73502
+New Mexico,1987,57.47731
+New Mexico,1988,59.83541
+New Mexico,1989,62.66928
+New Mexico,1990,66.24697
+New Mexico,1991,68.68935
+New Mexico,1992,70.54783
+New Mexico,1993,72.41
+New Mexico,1994,74.18935
+New Mexico,1995,76.20003
+New Mexico,1996,77.99538
+New Mexico,1997,79.46609
+New Mexico,1998,81.43351
+New Mexico,1999,83.77399
+New Mexico,2000,87.10477
+New Mexico,2001,90.2474
+New Mexico,2002,92.69444
+New Mexico,2003,95.47774
+New Mexico,2016,95.7
+New Mexico,2017,94.9
+New Mexico,2019,88.2
+New Mexico,2020,89.3
+New Mexico,2021,91.0
+New Mexico,2022,94.0
+New Mexico,2023,94.0
 New York,1960,13.8962
 New York,1961,14.06168
 New York,1962,14.31204
@@ -1230,6 +1703,210 @@ Ohio,2020,92.2
 Ohio,2021,91.3
 Ohio,2022,91.9
 Ohio,2023,94.7
+Oklahoma,1960,11.29208
+Oklahoma,1961,11.42654
+Oklahoma,1962,11.63208
+Oklahoma,1963,11.97144
+Oklahoma,1964,12.43847
+Oklahoma,1965,13.17268
+Oklahoma,1966,13.88285
+Oklahoma,1967,14.60095
+Oklahoma,1968,15.69648
+Oklahoma,1969,17.06687
+Oklahoma,1970,18.41021
+Oklahoma,1971,19.54531
+Oklahoma,1972,20.62193
+Oklahoma,1973,22.42619
+Oklahoma,1974,25.01245
+Oklahoma,1975,27.41257
+Oklahoma,1976,29.21548
+Oklahoma,1977,31.43448
+Oklahoma,1978,34.06955
+Oklahoma,1979,37.95277
+Oklahoma,1980,42.57583
+Oklahoma,1981,46.64671
+Oklahoma,1982,49.19705
+Oklahoma,1983,50.39312
+Oklahoma,1984,52.11657
+Oklahoma,1985,53.75513
+Oklahoma,1986,54.53289
+Oklahoma,1987,56.21054
+Oklahoma,1988,58.32434
+Oklahoma,1989,60.93521
+Oklahoma,1990,63.77731
+Oklahoma,1991,65.78678
+Oklahoma,1992,67.65444
+Oklahoma,1993,69.39864
+Oklahoma,1994,71.11378
+Oklahoma,1995,73.00046
+Oklahoma,1996,75.19024
+Oklahoma,1997,77.03623
+Oklahoma,1998,78.30199
+Oklahoma,1999,80.01321
+Oklahoma,2000,83.09348
+Oklahoma,2001,85.28488
+Oklahoma,2002,86.75026
+Oklahoma,2003,88.64304
+Oklahoma,2016,88.6
+Oklahoma,2017,89.2
+Oklahoma,2019,86.5
+Oklahoma,2020,87.2
+Oklahoma,2021,87.9
+Oklahoma,2022,85.8
+Oklahoma,2023,86.2
+Oregon,1960,12.63033
+Oregon,1961,12.75427
+Oregon,1962,13.33401
+Oregon,1963,13.56994
+Oregon,1964,14.06977
+Oregon,1965,14.64096
+Oregon,1966,15.3502
+Oregon,1967,16.07107
+Oregon,1968,17.03307
+Oregon,1969,18.29218
+Oregon,1970,19.47166
+Oregon,1971,20.62305
+Oregon,1972,21.76165
+Oregon,1973,23.49457
+Oregon,1974,26.1133
+Oregon,1975,28.47585
+Oregon,1976,30.18892
+Oregon,1977,33.18697
+Oregon,1978,36.32939
+Oregon,1979,40.38322
+Oregon,1980,45.13219
+Oregon,1981,48.73777
+Oregon,1982,50.95504
+Oregon,1983,52.44977
+Oregon,1984,54.13682
+Oregon,1985,55.73951
+Oregon,1986,56.63716
+Oregon,1987,58.36575
+Oregon,1988,60.54954
+Oregon,1989,63.17572
+Oregon,1990,66.16486
+Oregon,1991,68.89769
+Oregon,1992,71.04298
+Oregon,1993,73.20745
+Oregon,1994,75.40636
+Oregon,1995,77.84261
+Oregon,1996,79.77953
+Oregon,1997,81.35511
+Oregon,1998,84.46533
+Oregon,1999,88.06895
+Oregon,2000,92.66655
+Oregon,2001,95.87778
+Oregon,2002,98.74202
+Oregon,2003,102.0394
+Oregon,2016,115.4
+Oregon,2017,129.3
+Oregon,2019,134.0
+Oregon,2020,133.7
+Oregon,2021,130.1
+Oregon,2022,121.2
+Oregon,2023,114.7
+Pennsylvania,1960,12.6424
+Pennsylvania,1961,12.77504
+Pennsylvania,1962,13.04819
+Pennsylvania,1963,13.30218
+Pennsylvania,1964,13.80398
+Pennsylvania,1965,14.42319
+Pennsylvania,1966,15.33764
+Pennsylvania,1967,16.20575
+Pennsylvania,1968,17.32929
+Pennsylvania,1969,18.90771
+Pennsylvania,1970,20.3263
+Pennsylvania,1971,21.58069
+Pennsylvania,1972,22.96901
+Pennsylvania,1973,25.02367
+Pennsylvania,1974,27.99387
+Pennsylvania,1975,30.67071
+Pennsylvania,1976,32.74374
+Pennsylvania,1977,35.20931
+Pennsylvania,1978,38.1566
+Pennsylvania,1979,42.43449
+Pennsylvania,1980,47.71519
+Pennsylvania,1981,52.27441
+Pennsylvania,1982,55.21825
+Pennsylvania,1983,56.9275
+Pennsylvania,1984,59.20506
+Pennsylvania,1985,61.49226
+Pennsylvania,1986,63.09794
+Pennsylvania,1987,65.73419
+Pennsylvania,1988,68.64245
+Pennsylvania,1989,72.1162
+Pennsylvania,1990,75.36678
+Pennsylvania,1991,76.20782
+Pennsylvania,1992,78.14235
+Pennsylvania,1993,79.94943
+Pennsylvania,1994,82.00501
+Pennsylvania,1995,84.33682
+Pennsylvania,1996,85.89845
+Pennsylvania,1997,87.04221
+Pennsylvania,1998,89.76933
+Pennsylvania,1999,93.02466
+Pennsylvania,2000,98.453
+Pennsylvania,2001,101.0967
+Pennsylvania,2002,103.7009
+Pennsylvania,2003,106.7792
+Pennsylvania,2016,102.8
+Pennsylvania,2017,102.0
+Pennsylvania,2019,102.4
+Pennsylvania,2020,104.0
+Pennsylvania,2021,102.5
+Pennsylvania,2022,98.2
+Pennsylvania,2023,95.6
+Rhode Island,1960,15.72171
+Rhode Island,1961,15.97167
+Rhode Island,1962,16.32249
+Rhode Island,1963,16.73586
+Rhode Island,1964,17.23654
+Rhode Island,1965,17.86978
+Rhode Island,1966,18.82099
+Rhode Island,1967,19.83314
+Rhode Island,1968,20.9716
+Rhode Island,1969,22.3967
+Rhode Island,1970,23.8133
+Rhode Island,1971,25.04197
+Rhode Island,1972,26.38489
+Rhode Island,1973,28.33935
+Rhode Island,1974,31.28288
+Rhode Island,1975,33.99618
+Rhode Island,1976,36.05655
+Rhode Island,1977,38.50179
+Rhode Island,1978,41.4347
+Rhode Island,1979,45.7905
+Rhode Island,1980,51.29285
+Rhode Island,1981,56.30218
+Rhode Island,1982,59.51924
+Rhode Island,1983,61.6172
+Rhode Island,1984,64.53791
+Rhode Island,1985,67.38065
+Rhode Island,1986,70.14874
+Rhode Island,1987,73.91098
+Rhode Island,1988,77.92036
+Rhode Island,1989,82.38319
+Rhode Island,1990,85.58413
+Rhode Island,1991,87.93932
+Rhode Island,1992,89.89159
+Rhode Island,1993,91.80987
+Rhode Island,1994,93.5321
+Rhode Island,1995,95.63731
+Rhode Island,1996,97.79237
+Rhode Island,1997,99.59721
+Rhode Island,1998,100.785
+Rhode Island,1999,102.4927
+Rhode Island,2000,105.3013
+Rhode Island,2001,108.1662
+Rhode Island,2002,111.2775
+Rhode Island,2003,114.9028
+Rhode Island,2016,122.1
+Rhode Island,2017,123.6
+Rhode Island,2019,118.7
+Rhode Island,2020,119.6
+Rhode Island,2021,117.2
+Rhode Island,2022,112.9
+Rhode Island,2023,110.7
 South Carolina,1960,9.647667
 South Carolina,1961,10.00665
 South Carolina,1962,10.51704
@@ -1383,57 +2060,57 @@ Texas,2020,92.0
 Texas,2021,92.1
 Texas,2022,92.5
 Texas,2023,92.7
-Virginia,1960,11.03734
-Virginia,1961,11.24141
-Virginia,1962,11.6152
-Virginia,1963,12.00945
-Virginia,1964,12.60673
-Virginia,1965,13.23601
-Virginia,1966,13.98122
-Virginia,1967,14.80488
-Virginia,1968,15.96609
-Virginia,1969,17.56726
-Virginia,1970,18.87137
-Virginia,1971,20.10531
-Virginia,1972,21.30392
-Virginia,1973,23.08277
-Virginia,1974,25.74896
-Virginia,1975,28.11609
-Virginia,1976,30.03729
-Virginia,1977,32.342
-Virginia,1978,35.05935
-Virginia,1979,38.93096
-Virginia,1980,43.67865
-Virginia,1981,48.01671
-Virginia,1982,50.97842
-Virginia,1983,52.99097
-Virginia,1984,54.90021
-Virginia,1985,56.72123
-Virginia,1986,58.22548
-Virginia,1987,60.54227
-Virginia,1988,63.01745
-Virginia,1989,65.90314
-Virginia,1990,68.97375
-Virginia,1991,70.97596
-Virginia,1992,72.91058
-Virginia,1993,74.78731
-Virginia,1994,76.6675
-Virginia,1995,78.71999
-Virginia,1996,81.08004
-Virginia,1997,83.14884
-Virginia,1998,84.5574
-Virginia,1999,86.47073
-Virginia,2000,89.78439
-Virginia,2001,92.17111
-Virginia,2002,93.98562
-Virginia,2003,96.24777
-Virginia,2016,100.2
-Virginia,2017,102.2
-Virginia,2019,101.4
-Virginia,2020,101.5
-Virginia,2021,101.8
-Virginia,2022,102.8
-Virginia,2023,101.9
+Tennessee,1960,9.870867
+Tennessee,1961,10.23595
+Tennessee,1962,10.58494
+Tennessee,1963,10.9259
+Tennessee,1964,11.39013
+Tennessee,1965,12.07589
+Tennessee,1966,12.92133
+Tennessee,1967,13.65313
+Tennessee,1968,14.8026
+Tennessee,1969,16.26681
+Tennessee,1970,17.57261
+Tennessee,1971,18.77135
+Tennessee,1972,19.95295
+Tennessee,1973,21.75998
+Tennessee,1974,24.2888
+Tennessee,1975,26.52213
+Tennessee,1976,28.41842
+Tennessee,1977,30.57928
+Tennessee,1978,33.24342
+Tennessee,1979,36.90191
+Tennessee,1980,41.3297
+Tennessee,1981,45.35831
+Tennessee,1982,47.99565
+Tennessee,1983,49.69875
+Tennessee,1984,51.61255
+Tennessee,1985,53.37795
+Tennessee,1986,54.61059
+Tennessee,1987,56.69002
+Tennessee,1988,58.9593
+Tennessee,1989,61.62793
+Tennessee,1990,64.55735
+Tennessee,1991,66.62524
+Tennessee,1992,68.71954
+Tennessee,1993,70.62793
+Tennessee,1994,72.55641
+Tennessee,1995,74.66792
+Tennessee,1996,76.96513
+Tennessee,1997,78.94827
+Tennessee,1998,80.35619
+Tennessee,1999,82.19026
+Tennessee,2000,85.40849
+Tennessee,2001,87.62571
+Tennessee,2002,89.28098
+Tennessee,2003,91.34164
+Tennessee,2016,89.8
+Tennessee,2017,89.8
+Tennessee,2019,88.6
+Tennessee,2020,89.7
+Tennessee,2021,89.0
+Tennessee,2022,90.2
+Tennessee,2023,90.3
 Utah,1960,12.82221
 Utah,1961,13.00561
 Utah,1962,13.47703
@@ -1485,6 +2162,108 @@ Utah,2020,97.9
 Utah,2021,99.0
 Utah,2022,102.8
 Utah,2023,103.2
+Vermont,1960,15.53492
+Vermont,1961,15.8026
+Vermont,1962,16.29443
+Vermont,1963,16.35279
+Vermont,1964,16.83708
+Vermont,1965,17.64004
+Vermont,1966,18.72182
+Vermont,1967,19.62365
+Vermont,1968,20.80731
+Vermont,1969,22.35262
+Vermont,1970,23.79698
+Vermont,1971,25.07981
+Vermont,1972,26.40546
+Vermont,1973,28.3819
+Vermont,1974,31.18322
+Vermont,1975,33.77852
+Vermont,1976,35.86665
+Vermont,1977,38.17565
+Vermont,1978,41.25507
+Vermont,1979,45.54445
+Vermont,1980,50.84975
+Vermont,1981,55.65236
+Vermont,1982,58.68302
+Vermont,1983,60.55526
+Vermont,1984,63.12049
+Vermont,1985,65.68243
+Vermont,1986,67.81167
+Vermont,1987,70.98192
+Vermont,1988,74.29312
+Vermont,1989,78.17091
+Vermont,1990,81.31448
+Vermont,1991,82.7058
+Vermont,1992,84.72189
+Vermont,1993,86.53731
+Vermont,1994,88.50057
+Vermont,1995,90.70695
+Vermont,1996,92.51859
+Vermont,1997,93.92117
+Vermont,1998,96.09492
+Vermont,1999,98.80781
+Vermont,2000,103.1966
+Vermont,2001,106.0467
+Vermont,2002,108.8593
+Vermont,2003,112.1694
+Vermont,2016,122.4
+Vermont,2017,120.7
+Vermont,2019,114.3
+Vermont,2020,116.4
+Vermont,2021,117.0
+Vermont,2022,115.9
+Vermont,2023,115.3
+Virginia,1960,11.03734
+Virginia,1961,11.24141
+Virginia,1962,11.6152
+Virginia,1963,12.00945
+Virginia,1964,12.60673
+Virginia,1965,13.23601
+Virginia,1966,13.98122
+Virginia,1967,14.80488
+Virginia,1968,15.96609
+Virginia,1969,17.56726
+Virginia,1970,18.87137
+Virginia,1971,20.10531
+Virginia,1972,21.30392
+Virginia,1973,23.08277
+Virginia,1974,25.74896
+Virginia,1975,28.11609
+Virginia,1976,30.03729
+Virginia,1977,32.342
+Virginia,1978,35.05935
+Virginia,1979,38.93096
+Virginia,1980,43.67865
+Virginia,1981,48.01671
+Virginia,1982,50.97842
+Virginia,1983,52.99097
+Virginia,1984,54.90021
+Virginia,1985,56.72123
+Virginia,1986,58.22548
+Virginia,1987,60.54227
+Virginia,1988,63.01745
+Virginia,1989,65.90314
+Virginia,1990,68.97375
+Virginia,1991,70.97596
+Virginia,1992,72.91058
+Virginia,1993,74.78731
+Virginia,1994,76.6675
+Virginia,1995,78.71999
+Virginia,1996,81.08004
+Virginia,1997,83.14884
+Virginia,1998,84.5574
+Virginia,1999,86.47073
+Virginia,2000,89.78439
+Virginia,2001,92.17111
+Virginia,2002,93.98562
+Virginia,2003,96.24777
+Virginia,2016,100.2
+Virginia,2017,102.2
+Virginia,2019,101.4
+Virginia,2020,101.5
+Virginia,2021,101.8
+Virginia,2022,102.8
+Virginia,2023,101.9
 Washington,1960,12.39434
 Washington,1961,12.6803
 Washington,1962,13.17815
@@ -1587,3 +2366,107 @@ West Virginia,2020,92.7
 West Virginia,2021,90.5
 West Virginia,2022,90.0
 West Virginia,2023,87.7
+Wisconsin,1960,13.29494
+Wisconsin,1961,13.42052
+Wisconsin,1962,13.77857
+Wisconsin,1963,13.91546
+Wisconsin,1964,14.54673
+Wisconsin,1965,15.32702
+Wisconsin,1966,16.24582
+Wisconsin,1967,17.06859
+Wisconsin,1968,18.12793
+Wisconsin,1969,19.55215
+Wisconsin,1970,20.88123
+Wisconsin,1971,22.18008
+Wisconsin,1972,23.40882
+Wisconsin,1973,25.26695
+Wisconsin,1974,28.09988
+Wisconsin,1975,30.67434
+Wisconsin,1976,32.77668
+Wisconsin,1977,35.36227
+Wisconsin,1978,38.37994
+Wisconsin,1979,42.72404
+Wisconsin,1980,47.64751
+Wisconsin,1981,51.90891
+Wisconsin,1982,54.56914
+Wisconsin,1983,56.11691
+Wisconsin,1984,58.00764
+Wisconsin,1985,59.7763
+Wisconsin,1986,60.91142
+Wisconsin,1987,62.98694
+Wisconsin,1988,65.37631
+Wisconsin,1989,68.37251
+Wisconsin,1990,71.46225
+Wisconsin,1991,74.17304
+Wisconsin,1992,76.50403
+Wisconsin,1993,78.69106
+Wisconsin,1994,80.9965
+Wisconsin,1995,83.44221
+Wisconsin,1996,86.24983
+Wisconsin,1997,88.69904
+Wisconsin,1998,90.41611
+Wisconsin,1999,92.57044
+Wisconsin,2000,96.05186
+Wisconsin,2001,98.79778
+Wisconsin,2002,100.7044
+Wisconsin,2003,103.0686
+Wisconsin,2016,96.9
+Wisconsin,2017,96.2
+Wisconsin,2019,96.4
+Wisconsin,2020,96.1
+Wisconsin,2021,96.4
+Wisconsin,2022,95.5
+Wisconsin,2023,95.1
+Wyoming,1960,14.92204
+Wyoming,1961,14.68446
+Wyoming,1962,15.44904
+Wyoming,1963,15.40569
+Wyoming,1964,15.68313
+Wyoming,1965,16.27406
+Wyoming,1966,17.07976
+Wyoming,1967,17.94114
+Wyoming,1968,18.79103
+Wyoming,1969,20.26228
+Wyoming,1970,21.56453
+Wyoming,1971,22.84331
+Wyoming,1972,24.01381
+Wyoming,1973,25.95693
+Wyoming,1974,28.69942
+Wyoming,1975,31.09281
+Wyoming,1976,32.58302
+Wyoming,1977,35.84174
+Wyoming,1978,39.17176
+Wyoming,1979,43.3435
+Wyoming,1980,48.2548
+Wyoming,1981,51.86293
+Wyoming,1982,54.06369
+Wyoming,1983,54.88656
+Wyoming,1984,56.47541
+Wyoming,1985,58.11485
+Wyoming,1986,58.64066
+Wyoming,1987,60.16535
+Wyoming,1988,62.15263
+Wyoming,1989,64.79705
+Wyoming,1990,67.72912
+Wyoming,1991,70.10784
+Wyoming,1992,71.92758
+Wyoming,1993,73.7317
+Wyoming,1994,75.43054
+Wyoming,1995,77.33313
+Wyoming,1996,79.1758
+Wyoming,1997,80.8363
+Wyoming,1998,82.79632
+Wyoming,1999,85.32442
+Wyoming,2000,88.68198
+Wyoming,2001,91.61721
+Wyoming,2002,93.86558
+Wyoming,2003,96.63952
+Wyoming,2016,91.7
+Wyoming,2017,95.6
+Wyoming,2019,101.7
+Wyoming,2020,94.3
+Wyoming,2021,94.3
+Wyoming,2022,92.5
+Wyoming,2023,92.4
+Puerto Rico,2019,99.6
+Puerto Rico,2020,99.8
