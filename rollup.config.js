@@ -3,6 +3,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
 import postcss from 'rollup-plugin-postcss';
 import autoprefixer from 'autoprefixer';
+import polyfillNode from 'rollup-plugin-polyfill-node'; // Import the plugin
 
 export default {
   input: 'src/js/index.js', 
@@ -20,5 +21,6 @@ export default {
         autoprefixer(), // Apply autoprefixer to add vendor prefixes
       ],
     }), // Process CSS with PostCSS
+    polyfillNode(),
   ],
 };

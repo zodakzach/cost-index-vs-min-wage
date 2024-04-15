@@ -1,7 +1,7 @@
 // tailwind.config.js
 
 module.exports = {
-    content: ['./public/**/*.html'],
+    content: ['./dist/**/*.html'],
     // Other Tailwind CSS configuration options...
     plugins: [
       require('autoprefixer'),
