@@ -501,10 +501,24 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+.mt-5 {
+  margin-top: 1.25rem;
+}
 .text-center {
   text-align: center;
 }
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }

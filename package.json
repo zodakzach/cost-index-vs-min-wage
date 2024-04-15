@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "postcss src/css/styles.css -o dist/css/styles.css",
     "watch-css": "postcss src/css/styles.css -o dist/css/styles.css --watch",
-    "format-html": "prettier --write \"public/**/*.html\""
+    "format-html": "prettier --write \"dist/**/*.html\""
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
