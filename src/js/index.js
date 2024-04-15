@@ -39,7 +39,7 @@ async function plotMinWageAndCostOfLiving(location) {
     // Remove NaN value from minWageValues array
     minWageValues.pop();
     // Remove non-date string from minWageYears array
-    minWageYears.pop();
+    const filteredMinWageValues = minWageValues.filter(value => !isNaN(value));
     console.log(minWageValues, minWageYears)
 
     const costOfLivingYears = costOfLivingLocationData.map(row => parseInt(row['Date']));
@@ -58,7 +58,7 @@ async function plotMinWageAndCostOfLiving(location) {
         series: [
             {
                 name: 'Minimum Wage',
-                data: minWageValues.map((value, index) => [minWageYears[index], value]),
+                data: filteredMinWageValues.map((value, index) => [minWageYears[index], value]),
             },
             {
                 name: 'Cost of Living Index',
