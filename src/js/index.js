@@ -1,8 +1,13 @@
 import ApexCharts from 'apexcharts';
 import Papa from 'papaparse';
 
+var chart = null;
+
 // Function to fetch and plot minimum wage and cost of living data
 async function plotMinWageAndCostOfLiving(location) {
+    if (chart !== null) {
+        chart.destroy();
+    }
     // Fetch minimum wage data
     const minWageResponse = await fetch('public/data/clean_min_wage_data.csv');
     const minWageData = await minWageResponse.text();
@@ -48,6 +53,7 @@ async function plotMinWageAndCostOfLiving(location) {
         chart: {
             type: 'line',
             height: 400,
+            background: '#1e293b'
         },
         series: [
             {
@@ -86,12 +92,35 @@ async function plotMinWageAndCostOfLiving(location) {
         legend: {
             position: 'top',
         },
+        theme: {
+            mode: 'dark', 
+            palette: 'palette1', 
+            monochrome: {
+                enabled: false,
+                color: '#255aee',
+                shadeTo: 'dark',
+                shadeIntensity: 0.65
+            },
+        }
     };
 
     // Render ApexCharts
-    const chart = new ApexCharts(document.querySelector('#chart'), chartOptions);
+    chart = new ApexCharts(document.querySelector('#chart'), chartOptions);
     chart.render();
 }
 
 // Call the function with the desired location
-plotMinWageAndCostOfLiving('North Carolina');
+    // Function to handle button click
+function handlePlotButtonClick() {
+    // Get the selected state from the select element
+    var stateSelect = document.getElementById("countries");
+    var selectedState = stateSelect.value;
+
+    console.log(selectedState);
+    // Call plotMinWageAndCostOfLiving with the selected state
+    plotMinWageAndCostOfLiving(selectedState);
+}
+
+// Add event listener to the button
+var plotButton = document.getElementById("plotButton");
+plotButton.addEventListener("click", handlePlotButtonClick);
