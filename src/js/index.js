@@ -34,20 +34,39 @@ async function plotMinWageAndCostOfLiving(location) {
     const costOfLivingLocationData = costOfLivingParsed.filter(row => row.Location === location);
 
     // Prepare data for ApexCharts
-    const minWageYears = Object.keys(minWageLocationData[0]); // Assuming the first row contains the years
-    const minWageValues = Object.values(minWageLocationData[0]).map(parseFloat); 
-    // Remove NaN value from minWageValues array
-    minWageValues.pop();
-    // Remove non-date string from minWageYears array
-    const filteredMinWageValues = minWageValues.filter(value => !isNaN(value));
+    const minWageYears = Object.keys(minWageLocationData[0]).map(parseFloat); // Assuming the first row contains the years
+
+    //remove nan
+    minWageYears.pop()
+
+        // Function to interpolate missing values
+    function interpolateMissingValues(data) {
+        let prevValue = 0; // Default previous value
+        for (let i = 0; i < data.length; i++) {
+            if (!isNaN(parseFloat(data[i]))) { // Check if the value is not missing
+                prevValue = parseFloat(data[i]); // Update previous value
+                data[i] = prevValue
+            } else {
+                data[i] = prevValue; // Replace missing value with previous value
+            }
+        }
+        return data;
+    }
+
+    // Apply interpolation to the minimum wage values, replacing missing values with previous value or 0
+    const minWageValues = interpolateMissingValues(Object.values(minWageLocationData[0]));
+
+    minWageValues.pop()
+
     console.log(minWageValues, minWageYears)
 
-    const costOfLivingYears = costOfLivingLocationData.map(row => parseInt(row['Date']));
+    const costOfLivingYears = costOfLivingLocationData.map(row => parseFloat(row['Date']));
     const costOfLivingValues = costOfLivingLocationData.map(row => parseFloat(row['Value']));
 
     console.log(costOfLivingYears)
 
-    const commonYears = minWageYears.filter(year => costOfLivingYears.includes(year));
+    const minWageYearsAsDates = minWageYears.map(year => new Date(year, 0)); // Months are zero-based, so 0 represents January
+    const costOfLivingYearsAsDates = costOfLivingYears.map(year => new Date(year, 0)); // Months are zero-based, so 0 represents January
 
     const chartOptions = {
         chart: {
@@ -58,18 +77,39 @@ async function plotMinWageAndCostOfLiving(location) {
         series: [
             {
                 name: 'Minimum Wage',
-                data: filteredMinWageValues.map((value, index) => [minWageYears[index], value]),
+                data: minWageValues.map((value, index) => [minWageYearsAsDates[index], value]),
+                dataLabels: {
+                    enabled: true,
+                    formatter: function(value, timestamp) {
+                        return new Date(timestamp).getFullYear(); // Display only the year
+                    }
+                }
             },
             {
                 name: 'Cost of Living Index',
-                data: costOfLivingValues.map((value, index) => [costOfLivingYears[index], value]),
+                data: costOfLivingValues.map((value, index) => [costOfLivingYearsAsDates[index], value]),
+                dataLabels: {
+                    enabled: true,
+                    formatter: function(value, timestamp) {
+                        return new Date(timestamp).getFullYear(); // Display only the year
+                    }
+                }
             }
         ],
         xaxis: {
-            type: "int",
-            categories: commonYears,
+            type: 'datetime',
+            labels: {
+                datetimeFormatter: {
+                    year: 'yyyy', // Display only the year
+                }
+            },
             title: {
                 text: 'Year',
+            },
+        },
+        tooltip: {
+            x: {
+                format: 'yyyy', // Format the tooltip to show only the year
             },
         },
         yaxis: [
