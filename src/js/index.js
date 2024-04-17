@@ -34,12 +34,11 @@ async function plotMinWageAndCostOfLiving(location) {
     const costOfLivingLocationData = costOfLivingParsed.filter(row => row.Location === location);
 
     // Prepare data for ApexCharts
-    const minWageYears = Object.keys(minWageLocationData[0]).map(parseFloat); // Assuming the first row contains the years
-
+    const minWageYears = Object.keys(minWageLocationData[0]).map(parseFloat);
     //remove nan
     minWageYears.pop()
 
-        // Function to interpolate missing values
+    // Function to interpolate missing values
     function interpolateMissingValues(data) {
         let prevValue = 0; // Default previous value
         for (let i = 0; i < data.length; i++) {
@@ -55,15 +54,17 @@ async function plotMinWageAndCostOfLiving(location) {
 
     // Apply interpolation to the minimum wage values, replacing missing values with previous value or 0
     const minWageValues = interpolateMissingValues(Object.values(minWageLocationData[0]));
-
+    // Remove nan
     minWageValues.pop()
 
-    console.log(minWageValues, minWageYears)
+    const fedMidWageLocationData = minWageParsed.filter(row => row['State or otherjurisdiction'] === 'Federal ');
+
+    const fedMinWageValues = interpolateMissingValues(Object.values(fedMidWageLocationData[0]));
+    // Remove nan
+    fedMinWageValues.pop()
 
     const costOfLivingYears = costOfLivingLocationData.map(row => parseFloat(row['Date']));
     const costOfLivingValues = costOfLivingLocationData.map(row => parseFloat(row['Value']));
-
-    console.log(costOfLivingYears)
 
     const minWageYearsAsDates = minWageYears.map(year => new Date(year, 0)); // Months are zero-based, so 0 represents January
     const costOfLivingYearsAsDates = costOfLivingYears.map(year => new Date(year, 0)); // Months are zero-based, so 0 represents January
@@ -72,11 +73,21 @@ async function plotMinWageAndCostOfLiving(location) {
         chart: {
             type: 'line',
             height: 400,
-            background: '#1e293b'
+            background: '#374151'
         },
         series: [
             {
-                name: 'Minimum Wage',
+                name: 'Federal Minimum Wage',
+                data: fedMinWageValues.map((value, index) => [minWageYearsAsDates[index], value]),
+                dataLabels: {
+                    enabled: true,
+                    formatter: function(value, timestamp) {
+                        return new Date(timestamp).getFullYear(); // Display only the year
+                    }
+                }
+            },
+            {
+                name: 'State Minimum Wage',
                 data: minWageValues.map((value, index) => [minWageYearsAsDates[index], value]),
                 dataLabels: {
                     enabled: true,
@@ -96,6 +107,20 @@ async function plotMinWageAndCostOfLiving(location) {
                 }
             }
         ],
+
+        grid: {
+            show: false,
+            xaxis: {
+                lines: {
+                    show: true
+                }
+            },   
+            yaxis: {
+                lines: {
+                    show: true
+                }
+            },  
+        },
         xaxis: {
             type: 'datetime',
             labels: {
@@ -114,13 +139,22 @@ async function plotMinWageAndCostOfLiving(location) {
         },
         yaxis: [
             {
+                seriesName: 'Federal Minimum Wage',
                 title: {
+                    seriesName: 'Federal Minimum Wage',
+
                     text: 'Minimum Wage (Hourly $)',
                 },
             },
             {
+                seriesName: 'Federal Minimum Wage',
+                show: false,
+            },
+            {
+                seriesName: 'Cost of Living Index',
                 opposite: true,
                 title: {
+                    seriesName: 'Cost of Living Index',
                     text: 'Cost of Living Index',
                 },
             },
