@@ -174,8 +174,13 @@ async function plotMinWageAndCostOfLiving(location) {
         }
     };
 
+    // After the chart is rendered, remove opacity-0 and invisible classes to make it visible
+    const chartElement = document.querySelector("#chart");
+    chartElement.classList.remove("invisible");
+
     // Render ApexCharts
-    chart = new ApexCharts(document.querySelector('#chart'), chartOptions);
+    chart = new ApexCharts(chartElement, chartOptions);
+
     chart.render();
 }
 
