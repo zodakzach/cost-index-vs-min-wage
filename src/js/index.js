@@ -59,7 +59,7 @@ async function plotMinWageAndCostOfLiving(location) {
     const chartOptions = {
         chart: {
             type: 'line',
-            height: 'auto',
+            height: '400',
             background: '#374151'
         },
         series: [
